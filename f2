@@ -1,0 +1,3 @@
+#!/bin/bash
+curl -s -X POST https://api.telegram.org/bot1729455434:AAG8Qf8AKScj0AsaNtShCL1mw3_ld7ly8gk/sendmessage -d chat_id=615470725 -d text="hello $(whoami), we are $(uptime)"
+
